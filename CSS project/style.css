@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+      
+    
+    padding: 50px;
+    background-color: crimson;
+}
+header>a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+header>a:hover{
+    color: black;
+}
+
+section{
+
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+}
+section>h1{
+    font-size: 40px;
+}
+section>img{
+   width : 500px;
+}
+footer{
+    
+    
+    width: 900px;
+    margin: auto;
+    background-color: rgb(70, 65, 65);
+    text-align: center;
+    padding: 50px 0px;
+}
+footer>a{
+    color: white;
+    text-decoration: none;
+
+}
